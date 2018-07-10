@@ -1,4 +1,4 @@
-From node:latest
+From node:8
 
 RUN apt-get update \
     && apt-get install --no-install-recommends -y rsync python python-pip build-essential libssl-dev libffi-dev python-dev \
